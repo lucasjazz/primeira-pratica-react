@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0 10px;
+}
+
+
+footer {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  padding: 40px;
+  height: calc(100vh - 148px);
+  border-bottom: 1px solid gainsboro;
+  gap: 40px;
+}
+
+section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 2px;
+}
+
+section .left {
+  display: flex;
+  width: 300px;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid gainsboro;
+}
+
+section .left strong {
+  margin: 10px 0;
+}
+
+section .left span {
+  width: 200px;
+  text-align: center;
+}
+
+section .right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+
+section .right a {
+  margin-top: 50px;
+}
