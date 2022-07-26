@@ -91,3 +91,7 @@ section .right {
 section .right a {
   margin-top: 50px;
 }
+
+li {
+  margin: 10px;
+}
